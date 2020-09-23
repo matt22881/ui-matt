@@ -4,15 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+   
     <title>Use My Tech Stuff</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <h2>Item Creation</h2>
-    <ul></ul>
+    <nav>
+        <a hfef = "#">Home</a>
+        <a href = "#">Our Team</a>
+    </nav>
+    <h1>Use My Tech Stuff</h1>
+    <h2>Items Available</h2>
+    <ul>
+        <li>Desktops <img src = img/desktop.jpg alt = "Desktop Computer, on a desk, next to a window" ></li>
+        <li>Laptops<img src=img/laptop.jpg alt = "Laptop computer with mouse and headphones on a table with coffee, planty, and camera"></li>
+        <li>Tablets<img src=img/tablet.jpg alt = "Woman holding tablet computer and stylus"></li>
+        <li>Cameras<img src=img/camera.jpg alt = "Camera and accessories displayed on a table"></li>
+        <li>Mobile Phones<img src=img/mobile.jpg alt = "slose-up mobile phone next to laptop keyboard"></li>
+        <li>MP3 Players<img src=img/mp3player.jpg alt = "mp3 player and wired headphones"></li>
+    </ul>
+    <button>New Item</button>
+
     <h2>Order Form</h2>
-    <form></form>
+    <h3>Order Type</h3>
+    
+    <form>
+        <input type="radio" id="loaner" name="Loaner" value="loaner">
+        <label for="Loaner">Loaner</label><br>
+        <input type="radio" id="renter" name="Renter" value="renter">
+        <label for="Renter">Renter</label><br>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br>
+        <label for="product">Product Description</label><br>
+        <input type="text" id="product" name="product" value="product-description"><br>
+        <label for="serial">Serial #:</label><br>
+        <input type="text" id="serial" name="serial" value="serial"><br><br>
+        <input type="submit" value="Submit">
+        </form>
+
+    
 </body>
 
 </html>
