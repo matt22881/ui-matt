@@ -1,0 +1,47 @@
+/*General Styles*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #102542;
+    background-color: #cdd7d6;
+}
+
+a,
+button {
+    font-size: 1.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f87060;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+section {
+    padding: 2% 0;
+}
